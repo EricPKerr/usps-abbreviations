@@ -25,5 +25,9 @@ output['N'] = 'NORTH';
 output['E'] = 'EAST';
 output['S'] = 'SOUTH';
 output['W'] = 'WEST';
+output['NE'] = 'NORTHEAST';
+output['NW'] = 'NORTHWEST';
+output['SE'] = 'SOUTHEAST';
+output['SW'] = 'SOUTHWEST';
 
 console.log(JSON.stringify(output, null, 2));

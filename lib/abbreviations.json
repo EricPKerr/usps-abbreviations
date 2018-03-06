@@ -127,7 +127,7 @@
   "OVAL": "OVAL",
   "OPAS": "OVERPASS",
   "PARK": "PARKS",
-  "PKWY": "PARKWAYS",
+  "PKWY": "PARKWAY",
   "PASS": "PASS",
   "PSGE": "PASSAGE",
   "PATH": "PATH",
@@ -278,5 +278,9 @@
   "N": "NORTH",
   "E": "EAST",
   "S": "SOUTH",
-  "W": "WEST"
+  "W": "WEST",
+  "NE": "NORTHEAST",
+  "NW": "NORTHWEST",
+  "SE": "SOUTHEAST",
+  "SW": "SOUTHWEST"
 }
