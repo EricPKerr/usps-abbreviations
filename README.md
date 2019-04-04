@@ -24,6 +24,12 @@ USPS.transformText(text, {
   shiftOutputCase: true,
 
   // Remove all punctuation from output
-  stripPunctuation: false
+  stripPunctuation: false,
+
+  //Don't replace if punctuation is only a period and not last word in text
+  skipMiddleEndingPeriod: true
+
+  // Don't replace if punctuation is a period and last word in text
+  skipFinalEndingPeriod: false
 })
 ```
