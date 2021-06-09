@@ -23,6 +23,9 @@ USPS.transformText(text, {
   // Shift the output result to capitalized words
   shiftOutputCase: true,
 
+  // List of abbreviations to ignore (example ['PARK'])
+  ignoreAbbreviations: [],
+
   // Remove all punctuation from output
   stripPunctuation: false,
 
